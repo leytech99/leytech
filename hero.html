@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEYTECH | Web Developer</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="hero.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+
+        <a href="#" class="logo">
+             <span class="logo-icon">&lt;/&gt;</span>
+            LEY<span>TECH</span>
+        </a>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="#" class="sign-in">
+                <i class="fa-regular fa-user"></i>
+                Sign In
+            </a>
+
+            <a href="#" class="sign-up">
+                <i class="fa-solid fa-user-plus"></i>
+                Sign Up
+            </a>
+        </div>
+
+        <button class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <main class="hero">
+
+        <!-- LEFT SIDE -->
+        <section class="hero-image">
+
+            <div class="code-badge">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div class="profile-circle">
+                <!-- Replace with your own image -->
+                <img src="photo3.jpeg" class="profile-img" alt="Kingsley">
+            </div>
+
+            <div class="dots dots-one"></div>
+            <div class="dots dots-two"></div>
+         </section>
+
+
+        <!-- RIGHT SIDE -->
+        <section class="hero-content">
+
+            <div class="availability">
+                <span></span>
+                Available for work
+            </div>
+            
+
+            <p class="intro">
+                Hi, I'm ley<span>tech</span> 
+
+
+            </p>
+
+            <h1>
+                Web <span>Developer</span>
+            </h1>
+
+            <p class="description">
+                I build modern, responsive, and user-friendly websites
+                that combine clean design with seamless functionality.
+                I enjoy turning ideas into fast, accessible, and engaging
+                digital experiences using the latest web technologies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#contact" class="hire-btn">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#" class="cv-btn">
+                    Download CV
+                    <i class="fa-solid fa-download"></i>
+                </a>
+
+            </div>
+
+
+            <!-- SOCIAL LINKS -->
+            <div class="social-links">
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features">
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+
+            <div>
+                <h3>Responsive Design</h3>
+                <p>Looks great on all devices</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <div>
+                <h3>Clean Code</h3>
+                <p>Maintainable & Scalable</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+
+            <div>
+                <h3>Fast Performance</h3>
+                <p>Optimized for speed</p>
+            </div>
+
+        </div>
+
+
+        <div class="feature">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-paintbrush"></i>
+            </div>
+
+            <div>
+                <h3>Modern UI/UX</h3>
+                <p>Beautiful & User friendly</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const nav = document.querySelector("nav");
+
+        menuBtn.addEventListener("click", () => {
+            nav.classList.toggle("show");
+        });
+    </script>
+
+</body>
+</html>
