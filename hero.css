@@ -60,9 +60,11 @@ a {
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     position: fixed;
-    z-index: 1000;
+    z-index: 10;
     background-color: #060e1e;
     border-bottom: none;
+
+    
 }
 
 
@@ -77,6 +79,7 @@ a {
 .logo span {
     color: #1685ff;
 }
+
 
 
 /* NAVIGATION */
